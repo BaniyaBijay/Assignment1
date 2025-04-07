@@ -8,10 +8,15 @@ function App() {
   const [selectedScp, setSelectedScp] = useState(null);
 
   useEffect(() => {
+    // Fetch SCP data from the server or local file
     fetch('/data.json')
       .then((response) => response.json())
-      .then((data) => setScps(data))
-      .catch((error) => console.error('Error loading data:', error));
+      .then((data) => {
+        setScps(data);  // Set SCP data to state
+      })
+      .catch((error) => {
+        console.error('Error loading data:', error); // Improved error logging
+      });
   }, []);
 
   return (
@@ -23,8 +28,11 @@ function App() {
           {selectedScp ? (
             <Scp scp={selectedScp} />
           ) : (
-            <p>The SCP Foundation is a fictional organization featured in stories created by contributors on the SCP Wiki, a wiki-based collaborative writing project. Within the project's shared fictional universe, the SCP Foundation is a secret organization that is responsible for capturing, containing, and studying various paranormal, supernatural, and other mysterious phenomena, while also keeping their existence hidden from the rest of society. 
-            <br />Select an SCP file to view the details</p>
+            <p>
+              The SCP Foundation is a fictional organization featured in stories created by contributors on the SCP Wiki, a wiki-based collaborative writing project. Within the project's shared fictional universe, the SCP Foundation is a secret organization that is responsible for capturing, containing, and studying various paranormal, supernatural, and other mysterious phenomena, while also keeping their existence hidden from the rest of society.
+              <br />
+              Select an SCP file to view the details.
+            </p>
           )}
         </div>
       </div>
