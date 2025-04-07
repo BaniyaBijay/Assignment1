@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Nav from './Nav';
-import Scp from './Scp';
+import Scp from './scp';
 import './App.css';
 
 function App() {
