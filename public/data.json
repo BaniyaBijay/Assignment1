@@ -1,0 +1,52 @@
+[
+  {
+    "id": "SCP - 002",
+    "title": "SCP-002 - The Living Room",
+    "objectClass": "Euclid",
+    "image": "/src/images/800px-SCP002.jpg",
+    "specialContainmentProcedures": "SCP-002 is to be contained in a 5m x 5m x 5m containment cell, with no less than three armed guards stationed at the entrance. Any interaction with SCP-002 must be approved by a Level 4 personnel.",
+    "description": "SCP-002 is a large, round object, resembling a living room. It appears to be an enclosed space, with several pieces of furniture, some of which appear to be functional, though the space exhibits signs of parasitic growth.",
+    "additionalNotes": "SCP-002 must be kept under constant surveillance. No personnel are allowed to enter the containment area without prior authorization from higher command.",
+    "appendix": "Appendix A: Detailed studies show SCP-002 may exhibit some form of parasitic mind control over individuals exposed to the room for long periods."
+  },
+  {
+    "id": "SCP - 003",
+    "title": "SCP-003 - The Biological Motherboard",
+    "objectClass": "Euclid",
+    "image": "/src/images/003.jpg",
+    "specialContainmentProcedures": "SCP-003 is to be kept in a sealed, controlled environment. Personnel must undergo psychological evaluation before being granted access. Any breach in containment will trigger a lockdown of the facility.",
+    "description": "SCP-003 appears to be a biological organism that functions as a motherboard, capable of storing and transmitting electrical signals. The organism is capable of interacting with electronic devices and appears to be able to 'hack' or interface with technology.",
+    "additionalNotes": "SCP-003 has been shown to exhibit high intelligence and problem-solving abilities. Research is ongoing to understand the full range of its capabilities.",
+    "appendix": "Appendix A: Tests on SCP-003 have confirmed that it can interact with advanced computing systems, suggesting that it may have been engineered by an advanced civilization."
+  },
+  {
+    "id": "SCP - 004",
+    "title": "SCP-004 - The 12 Rusty Keys",
+    "objectClass": "Safe",
+    "image": "/src/images/SCP004_door.jpg",
+    "specialContainmentProcedures": "SCP-004's keys are stored in a secure containment chamber. Each key is kept in an individually locked box. Access to these keys is strictly prohibited unless authorized by Site Command.",
+    "description": "SCP-004 consists of twelve rusty, ancient-looking keys. Each key is capable of opening a different door in reality, leading to unpredictable and often dangerous locations. The keys' origins are unknown, and their exact purpose remains under investigation.",
+    "additionalNotes": "Further analysis is required to understand how the keys interact with spatial dimensions and reality.",
+    "appendix": "Appendix A: When the keys are used, they transport individuals to unknown locations. It is theorized that these keys allow access to alternate dimensions or parallel universes."
+  },
+  {
+    "id": "SCP - 005",
+    "title": "SCP-005 - Skeleton Key",
+    "objectClass": "Safe",
+    "image": "/src/images/SCP-005.jpg",
+    "specialContainmentProcedures": "SCP-005 poses no immediate risk, but must be kept in a locked containment box. Access to SCP-005 is restricted to Level 4 personnel, and its usage must be approved by a supervisory officer.",
+    "description": "SCP-005 is a simple, ornate skeleton key that is capable of opening any and all locks, regardless of their complexity or security. The origin of this key is unknown, and it is unclear how it possesses this universal unlocking capability.",
+    "additionalNotes": "SCP-005 is not to be used for any personal purposes. It is to be handled only in the course of authorized experiments.",
+    "appendix": "Appendix A: Attempts to disguise locks in various ways have only partially hindered SCP-005's functionality. Further testing is required to understand the limits of its capabilities."
+  },
+  {
+    "id": "SCP - 006",
+    "title": "SCP-006 - Fountain of Youth",
+    "objectClass": "Safe",
+    "image": "/src/images/006.jpg",
+    "specialContainmentProcedures": "SCP-006 is kept in a chemical factory disguised as a normal industrial complex. Personnel interacting with SCP-006 must wear special BNC suits to avoid contamination.",
+    "description": "SCP-006 is a small spring located 60 km west of Astrakhan. The water from the spring has properties that significantly enhance the regeneration of damaged cells, improve the immune system, and can even reverse aging in individuals who consume it.",
+    "additionalNotes": "Personnel who come into direct contact with SCP-006 or its liquid must be confined and terminated after sufficient studies are done. Incineration is the most effective termination method.",
+    "appendix": "Appendix A: Tests on both human and animal subjects have demonstrated regenerative abilities, though prolonged exposure can result in unexpected side effects. A full report on SCP-006's biological effects is pending."
+  }
+]

@@ -1,0 +1,137 @@
+/* ======= General Styles ======= */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* Deep Black */
+  color: #fff;
+}
+
+/* ======= Main Container ======= */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* ======= Header ======= */
+h1 {
+  color: #e60000; /* Bright SCP Red */
+  text-shadow: 2px 2px 4px rgba(230, 0, 0, 0.6);
+  border-bottom: 3px solid #e60000;
+  padding-bottom: 10px;
+  margin-bottom: 30px; /* Increased for more space */
+}
+
+/* ======= Content Layout ======= */
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  gap: 20px; /* Added spacing between sidebar and SCP container */
+}
+
+/* ======= Sidebar (Navigation) ======= */
+.sidebar {
+  width: 220px;
+  background-color: #222; /* Dark Grey */
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #e60000;
+  box-shadow: 0 0 10px rgba(230, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+  color: #e60000;
+  text-align: center;
+  margin-bottom: 15px; /* Added spacing below sidebar title */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 12px; /* Slightly increased padding */
+  margin-bottom: 8px; /* Increased spacing between items */
+  background-color: #333;
+  border-radius: 5px;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sidebar li:hover {
+  background-color: #e60000;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* ======= SCP Details Box ======= */
+.scp-container {
+  flex: 1;
+  padding: 25px; /* Increased padding for breathing room */
+  background-color: #222;
+  border-radius: 8px;
+  border: 2px solid #e60000;
+  margin-left: 0; /* Removed redundant margin since gap is used in .content */
+  box-shadow: 0 0 15px rgba(230, 0, 0, 0.5);
+}
+
+.scp-container h2 {
+  color: #e60000;
+  text-shadow: 1px 1px 4px rgba(230, 0, 0, 0.6);
+  border-bottom: 2px solid #e60000;
+  padding-bottom: 10px; /* Increased for better separation */
+  margin-bottom: 20px; /* Added space below title */
+}
+
+.scp-container p {
+  font-size: 16px;
+  line-height: 1.8; /* Increased line height for readability */
+  margin: 15px 0; /* Increased vertical spacing between paragraphs */
+}
+
+.scp-container strong {
+  color: #ff4d4d;
+}
+
+/* ======= SCP Image ======= */
+.scp-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 20px auto; /* Centered and increased spacing */
+  display: block;
+  border: 2px solid #e60000;
+  box-shadow: 0 0 15px rgba(230, 0, 0, 0.6);
+}
+
+/* ======= Mobile Responsiveness ======= */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adjusted gap for mobile */
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0; /* Removed redundant margin since gap is used */
+  }
+
+  .scp-container {
+    width: 100%;
+    padding: 20px; /* Slightly reduced padding for mobile */
+  }
+
+  .scp-image {
+    max-width: 100%; /* Ensures image fits smaller screens */
+    margin: 15px auto; /* Adjusted spacing for mobile */
+  }
+}
